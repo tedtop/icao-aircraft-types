@@ -1,0 +1,38 @@
+{
+  "name": "icao-aircraft-types",
+  "version": "1.1.0",
+  "description": "Every ICAO Doc 8643 aircraft type designator (B739, E75L, C172...) with manufacturer, model names, class code, wake category and engines, plus lookup, search and model-name matching.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src",
+    "data",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "update-data": "node scripts/update-data.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "icao",
+    "doc8643",
+    "aircraft",
+    "type",
+    "designator",
+    "aviation"
+  ],
+  "license": "MIT",
+  "author": "Ted Toporkov (https://github.com/tedtop)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tedtop/icao-aircraft-types.git"
+  },
+  "homepage": "https://github.com/tedtop/icao-aircraft-types#readme",
+  "bugs": {
+    "url": "https://github.com/tedtop/icao-aircraft-types/issues"
+  }
+}
